@@ -15,8 +15,8 @@ sudo python ovxctl.py -n createPort 1 00:00:00:00:00:00:02:00 6
 sudo python ovxctl.py -n createPort 1 00:00:00:00:00:00:03:00 5
 sudo python ovxctl.py -n createPort 1 00:00:00:00:00:00:03:00 6
 
-sudo python ovxctl.py -n createPort 1 00:00:00:00:00:00:07:00 2
 sudo python ovxctl.py -n createPort 1 00:00:00:00:00:00:07:00 6
+sudo python ovxctl.py -n createPort 1 00:00:00:00:00:00:07:00 2
 #links
 sudo python ovxctl.py -n connectLink 1 00:a4:23:05:00:00:00:01 2 00:a4:23:05:00:00:00:02 1 spf 1
 sudo python ovxctl.py -n connectLink 1 00:a4:23:05:00:00:00:02 2 00:a4:23:05:00:00:00:03 1 spf 1
